@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t jlxc106/docker_with_react -f Dockerfile.dev .
+
+
+script:
+  - docker run jlxc106/docker_with_react npm run test  -- --coverage
