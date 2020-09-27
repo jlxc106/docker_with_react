@@ -10,7 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload. 
-            New feature
+            New feature was added here
           </p>
           <a
             className="App-link"
@@ -18,7 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React!!! maybe?
+            Learn React!!!
           </a>
         </header>
       </div>
